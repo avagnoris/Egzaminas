@@ -1,0 +1,40 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  // max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: $body-color;
+  align-items: center;
+  padding: 30px;
+  background: $body-color;
+
+  a {
+    font-size: 1.1rem;
+    color: black;
+
+    &:hover {
+      font-weight: 600;
+    }
+  }
+
+  button {
+    background: $blue;
+    color: white;
+    border: 1px solid $blue;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: lato;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s;
+
+    &:hover {
+      color: $blue;
+      background-color: white;
+    }
+  }
+}
